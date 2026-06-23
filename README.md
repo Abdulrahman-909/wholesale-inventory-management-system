@@ -1,47 +1,42 @@
-# WholeSale Market Management System
+## Team Members and Contributions
 
-A university market management system for managing products, customers, suppliers, purchases, sales, stock, ledgers, reports, staff, and authentication.
+This project was developed as a team effort.
 
-## Tech Stack
+### Backend & Database Development
 
-- Frontend: React, Vite, Tailwind CSS, Axios
-- Backend: Django, Django REST Framework
-- Database: MySQL
-- Authentication: JWT
+* Abdulrahman Raheemi
+* GitHub: https://github.com/Abdulrahman-909
 
-## Main Features
+Responsibilities:
 
-- Product catalog with images
-- Customer and supplier management
-- Sales and purchase management
-- Stock tracking
-- Ledger and payment management
-- Daily and monthly reports
-- Admin and regular user roles
+* Django Backend Development
+* Django REST Framework API Development
+* MySQL Database Design and Management
+* Authentication & Authorization System
+* Inventory and Stock Management Logic
+* Customer, Supplier, and Ledger Management
+* System Maintenance, Bug Fixing, and Improvements
 
-## Project Structure
+### Frontend Development
 
-```text
-WholeSale/
-  frontEnd/          React frontend
-  market_database/  Django backend
-```
+* Ali Kohzad
+* GitHub: https://github.com/alikohzad2174
 
-## Run Frontend
+Responsibilities:
 
-```bash
-cd frontEnd
-npm install
-npm run dev
-```
+* React Frontend Development
+* User Interface Components
+* Frontend Integration with Backend APIs
+* User Experience Enhancements
 
-## Run Backend
+### Frontend Development
 
-```bash
-cd market_database
-python manage.py runserver
-```
+* Khosrow Samadi
+* GitHub: https://github.com/Khosrow-hub
 
-## Notes
+Responsibilities:
 
-This project is built for educational purposes. Local environment files, virtual environments, uploaded media, and dependency folders are ignored from GitHub.
+* React Frontend Development
+* UI Design and Styling
+* Frontend Feature Development
+* Frontend Testing and Improvements
