@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+  margin: 0;
+  background-color: #f8fafc;
+  color: #0f172a;
+  font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Light mode (default) */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark mode - applies when 'dark' class is on html element */
+html.dark body {
+  background-color: #000000;
+  color: #ffffff;
+}

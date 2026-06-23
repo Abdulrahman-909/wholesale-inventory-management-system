@@ -1,0 +1,39 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+.env
+db.sqlite3
+
+# Virtual environments
+venv/
+env/
+django/
+django-cors-headers/
+djangorestframework/
+install/
+mysqlclientpython/
+market_database/venv/
+market_database/django/
+market_database/django-cors-headers/
+market_database/djangorestframework/
+market_database/install/
+market_database/mysqlclientpython/
+
+# Django generated files
+market_database/media/
+market_database/staticfiles/
+
+# Node / React
+node_modules/
+frontEnd/node_modules/
+dist/
+frontEnd/dist/
+
+# Logs and local editor files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+_github_upload/
